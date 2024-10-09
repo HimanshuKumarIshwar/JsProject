@@ -1,0 +1,1 @@
+I am going to boost my JavaScript knowledge by making projects in different aspects, which will be helpful for me in cracking interviews.
