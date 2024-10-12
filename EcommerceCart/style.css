@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1a1a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #3c3c3c;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #3c3c3a;
+}
+.title{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    padding: 4px;
+}
+
+.products{
+    background-color: aqua;
+    padding: 4px;
+    position: relative;
+    border-radius: 5px;
+}
+.products h3 {
+    position: absolute;
+    left: 1px;
+    top: 0;
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#product-items{
+    margin-top: 3px;
+    padding-top: 15px;
+}
+.product-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-bottom: 4px;
+}
+
+.product-item button{
+    font-size: 0.3rem;
+    background-color: blue;
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+    border: 0.3px solid black;
+    padding: 2px 4px;
+   
+}
+.product-item button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.carts{
+    background-color: rgba(47, 147, 255, 0.703);
+    padding: 4px;
+    position: relative;
+    border-radius: 5px;
+    margin: 2px;
+    min-height: 100px;
+}
+
+.carts h3{
+    position: absolute;
+    left: 1px;
+    top: 0;
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#carts-items{
+    margin-top: 3px;
+    padding-top: 15px;
+    min-height: 100px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-bottom: 4px;
+}
+
+.cart-item button{
+    font-size: 0.3rem;
+    background-color: aqua;
+    color: blueviolet;
+    outline: none;
+    border-radius: 10px;
+    border: 0.3px solid black;
+    padding: 2px 4px;
+}
+.cart-item button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#empty-text{
+    font-size: 1rem;
+    color: red;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+
+.total-cost{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7b1818a0;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 0.5rem;
+
+}
+
+.total-cost button{
+    font-size: 0.4rem;
+    padding: 2px 4px;
+    margin-top: 3px;
+    outline: none;
+    background-color: green;
+}
+.total-cost button:hover{
+    background-color: goldenrod;
+}
+.hidden{
+    display: none;
+}
+
+
