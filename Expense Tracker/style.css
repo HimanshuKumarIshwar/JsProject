@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a1a1a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    padding: 5px;
+}
+
+input{
+    padding: 10px 20px;
+    background-color: #2b2b2b;
+    color: aliceblue;
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: azure;
+    font-size: large;
+}
+
+form button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.expense-container{
+    background-color: #4d4d4d;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.expanse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    margin: 4px;
+    background-color: #1a1a1a;
+   padding: 4px 8px;
+   border-radius: 10px;
+}
+.expanse button{
+    background-color: rebeccapurple;
+    padding: 4px 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.expanse button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+
+.expense-container h3{
+    background: #6e6e6e;
+    padding: 4px 8px;
+    color: blue;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
